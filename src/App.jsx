@@ -17,6 +17,8 @@ import Frenectomy from './Frenectomy';
 import OsseousSurgery from './OsseousSurgery';
 import ScalingAndRootPlaning from "./ScalingAndRootPlaning";  
 import PeriodontalMaintenance from './PeriodontalMaintenance';
+import Alloderm from './Alloderm';
+import SoftTissueGrafting from './SoftTissueGrafting';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -625,6 +627,8 @@ function App() {
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsOfService />} />
       <Route path="/accessibility" element={<Accessibility />} />
+      <Route path="/alloderm" element={<Alloderm />} />
+      <Route path="/soft-tissue-grafting" element={<SoftTissueGrafting />} />
       <Route path="/lanap" element={<Lanap />} />
       <Route path="/laser-therapy" element={<LaserTherapy />} />
       <Route path="/guided-bone-regeneration" element={<GuidedBoneTissueRegeneration />} />
