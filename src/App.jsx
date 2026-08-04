@@ -64,6 +64,8 @@ const Navbar = () => {
   }, []);
 
   const services = [
+    { name: 'Alloderm', path: '/alloderm' },
+    { name: 'Soft Tissue Grafting', path: '/soft-tissue-grafting' },
     { name: 'Periodontal Maintenance', path: '/periodontal-maintenance' },
     { name: 'Scaling and Root Planing', path: '/scaling-root-planing' },
     { name: 'Osseous Surgery', path: '/osseous-surgery' },
@@ -544,6 +546,8 @@ const CTASection = () => {
 // --- 7. FOOTER (UPDATED WITH INSURANCE & PAYMENT COLUMN) ---
 const Footer = () => {
   const services = [
+    { name: 'Alloderm', path: '/alloderm' },
+    { name: 'Soft Tissue Grafting', path: '/soft-tissue-grafting' },
     { name: 'Periodontal Maintenance', path: '/periodontal-maintenance' },
     { name: 'Scaling and Root Planing', path: '/scaling-root-planing' },
     { name: 'Osseous Surgery', path: '/osseous-surgery' },
