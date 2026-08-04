@@ -160,7 +160,7 @@ const Hero = () => {
         <div className="flex gap-4 mt-10 hero-element">
            <button onClick={() => window.open("https://book.modento.io/atlanta-periodontal-group", "_blank")} className="magnetic-button bg-gradient-to-r from-accent to-[#0ea5e9] text-white px-8 py-4 rounded-full font-sans font-semibold flex items-center gap-2 shadow-[inset_0_2px_10px_rgba(255,255,255,0.4),0_10px_30px_rgba(6,182,212,0.3)] border border-white/20"
          >
-         <span className="relative z-10 block">Book Your Free Consultation</span>
+         <span className="relative z-10 block">Consultation</span>
          <ChevronRight className="relative z-10 w-5 h-5" />
          </button>
          </div>
@@ -416,8 +416,8 @@ const Protocol = () => {
   const protocols = [
     {
       num: '01',
-      title: 'Comprehensive Periodontal Evaluation',
-      desc: 'Advanced 3D imaging, digital diagnostics, and a comprehensive assessment of your gums, bone, and oral health to develop a treatment plan tailored to you.',
+      title: 'Periodontal Evaluation',
+      desc: 'Advanced 3D imaging, digital diagnostics, and an assessment of your gums, bone, and oral health to develop a treatment plan tailored to you.',
       image: 'https://i.imgur.com/BPiVuyf.jpeg?q=80&w=2600&auto=format&fit=crop',
       RenderVisual: () => (
         <svg viewBox="0 0 100 100" className="w-full h-full drop-shadow-[0_0_20px_rgba(6,182,212,0.3)]">

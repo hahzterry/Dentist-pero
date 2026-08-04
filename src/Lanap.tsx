@@ -483,6 +483,10 @@ const LANAP = () => {
               a: "Many dental insurance plans cover LANAP when it is medically necessary for treating gum disease. We'll verify your benefits and explain any out-of-pocket costs."
             },
             {
+              q: "What insurance do you accept?",
+              a: "We acccept Delta Dental and Cigna dental insurance plans. We also offer flexible financing options for patients without insurance with Care Credit, SunBit and Cherry. Our team will help you understand your coverage and payment options."
+            },
+            {
               q: "Does LANAP really regenerate bone?",
               a: "Yes, LANAP is the only FDA-cleared laser procedure proven to stimulate new bone and tissue attachment. Clinical studies have demonstrated significant regeneration after treatment."
             },

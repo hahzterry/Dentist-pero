@@ -495,7 +495,11 @@ const FunctionalCrownLengthening = () => {
             },
             {
               q: "Is functional crown lengthening covered by insurance?",
-              a: "Yes, functional crown lengthening is typically covered by dental insurance when it's medically necessary for restorative work. We'll verify your benefits and explain any out-of-pocket costs before your procedure."
+              a: "Yes, functional crown lengthening is typically covered by dental insurance when it's medically necessary for restorative work. We'll verify your benefits and explain any out-of-pocket costs before your procedure. However, we offer flexible affordable payment plans with Care Credit, SunBit and Cherry to make it accessible."
+            },
+            {
+              q: "What insurance do you accept?",
+              a: "We acccept Delta Dental and Cigna dental insurance plans. We also offer flexible financing options for patients without insurance with Care Credit, SunBit and Cherry. Our team will help you understand your coverage and payment options."
             },
             {
               q: "Will I have a temporary crown during healing?",

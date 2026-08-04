@@ -406,7 +406,7 @@ const ScalingAndRootPlaning = () => {
               {[
                 {
                   step: 'Step 1',
-                  title: 'Comprehensive Examination',
+                  title: 'Comprehnsive Examination',
                   desc: "We'll evaluate your gum health, measure pocket depths, take X‑rays, and develop a customized treatment plan.",
                 },
                 {
@@ -523,7 +523,11 @@ const ScalingAndRootPlaning = () => {
             },
             {
               q: 'Is scaling and root planing covered by insurance?',
-              a: "Yes, scaling and root planing is typically covered by most dental insurance plans. We'll verify your benefits and explain any out‑of‑pocket costs before your treatment. We also offer flexible payment options for patients without insurance.",
+              a: "Yes, scaling and root planing is typically covered by most dental insurance plans. We'll verify your benefits and explain any out‑of‑pocket costs before your treatment. We also offer flexible payment options for patients without insurance. However, we offer flexible affordable payment plans with Care Credit, SunBit and Cherry to make it accessible.",
+            },
+            {
+              q: "What insurance do you accept?",
+              a: "We acccept Delta Dental and Cigna dental insurance plans. We also offer flexible financing options for patients without insurance with Care Credit, SunBit and Cherry. Our team will help you understand your coverage and payment options."
             },
             {
               q: 'What is the recovery time?',

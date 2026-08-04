@@ -337,7 +337,7 @@ const PeriodontalMaintenance = () => {
               What to Expect During Your Visit
             </h2>
             <p className="mt-4 font-serif text-lg leading-relaxed text-primary/70">
-              Your periodontal maintenance visit is comprehensive and tailored to your specific needs:
+              Your periodontal maintenance visit is tailored to your specific needs:
             </p>
             <ul className="mt-4 space-y-3">
               {[
@@ -346,7 +346,7 @@ const PeriodontalMaintenance = () => {
                 "Removal of plaque and tartar above and below the gum line",
                 "Polishing and fluoride treatment when indicated",
                 "Review of your home care routine with personalized recommendations",
-                "Oral cancer screening and comprehensive exam"
+                "Oral cancer screening and exam"
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3 font-serif text-primary/70">
                   <CheckCircle2 className="flex-shrink-0 w-5 h-5 mt-1 text-accent" />
@@ -391,7 +391,11 @@ const PeriodontalMaintenance = () => {
               },
               {
                 q: "Will my insurance cover periodontal maintenance?",
-                a: "Most dental insurance plans cover periodontal maintenance visits similarly to routine cleanings, though coverage may vary. Our team will verify your benefits and explain any out-of-pocket costs before your visit. We're happy to help you understand your coverage."
+                a: "Most dental insurance plans cover periodontal maintenance visits similarly to routine cleanings, though coverage may vary. Our team will verify your benefits and explain any out-of-pocket costs before your visit. We're happy to help you understand your coverage. However, we offer flexible affordable payment plans with Care Credit, SunBit and Cherry to make it accessible."
+              },
+              {
+              q: "What insurance do you accept?",
+              a: "We acccept Delta Dental and Cigna dental insurance plans. We also offer flexible financing options for patients without insurance with Care Credit, SunBit and Cherry. Our team will help you understand your coverage and payment options."
               },
               {
                 q: "Is periodontal maintenance painful?",

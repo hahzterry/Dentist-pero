@@ -480,7 +480,15 @@ const LaserTherapy = () => {
             },
             {
               q: "Is laser therapy covered by insurance?",
-              a: "Many dental insurance plans cover laser therapy when it is medically necessary for treating gum disease. We'll verify your benefits and explain any out-of-pocket costs."
+              a: "Many dental insurance plans cover laser therapy when it is medically necessary for treating gum disease. We'll verify your benefits and explain any out-of-pocket costs. However, we offer flexible affordable payment plans with Care Credit, SunBit and Cherry to make it accessible."
+            },
+            {
+              q: "What insurance do you accept?",
+              a: "We acccept Delta Dental and Cigna dental insurance plans. We also offer flexible financing options for patients without insurance with Care Credit, SunBit and Cherry. Our team will help you understand your coverage and payment options."
+            },
+            {
+              q: "What insurance do you accept?",
+              a: "We acccept Delta Dental and Cigna dental insurance plans. We also offer flexible financing options for patients without insurance with Care Credit, SunBit and Cherry. Our team will help you understand your coverage and payment options."
             },
             {
               q: "How effective is laser therapy compared to traditional gum surgery?",

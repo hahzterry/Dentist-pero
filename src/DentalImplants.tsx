@@ -372,7 +372,7 @@ const DentalImplants = () => {
               {[
                 {
                   step: "Step 1",
-                  title: "Comprehensive Evaluation and Planning",
+                  title: "Evaluation and Planning",
                   desc: "We'll assess your bone density, create a 3D treatment plan, and discuss your goals. This ensures a precise and predictable outcome."
                 },
                 {
@@ -490,7 +490,11 @@ const DentalImplants = () => {
             },
             {
               q: "Are dental implants covered by insurance?",
-              a: "Many dental insurance plans cover a portion of implant costs. We'll verify your benefits and explain any out-of-pocket costs before your procedure. We also offer flexible payment options."
+              a: "Many dental insurance plans cover a portion of implant costs. We'll verify your benefits and explain any out-of-pocket costs before your procedure. We offer flexible affordable payment plans with Care Credit, SunBit and Cherry to make it accessible."
+            },
+            {
+              q: "What insurance do you accept?",
+              a: "We acccept Delta Dental and Cigna dental insurance plans. We also offer flexible financing options for patients without insurance with Care Credit, SunBit and Cherry. Our team will help you understand your coverage and payment options."
             },
             {
               q: "Can anyone get dental implants?",
@@ -502,7 +506,7 @@ const DentalImplants = () => {
             },
             {
               q: "How do I schedule my dental implant consultation?",
-              a: "You can schedule online through our booking platform or call our office directly at (770) 994-5678. We'll conduct a comprehensive evaluation and determine if implants are right for you."
+              a: "You can schedule online through our booking platform or call our office directly at (770) 994-5678. We'll conduct an evaluation and determine if implants are right for you."
             }
           ].map((item, i) => (
             <div key={i} className="p-6 transition-all border section-animate border-primary/10 rounded-2xl bg-white/50 hover:bg-white">

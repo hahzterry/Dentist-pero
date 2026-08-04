@@ -490,7 +490,11 @@ const GuidedBoneTissueRegeneration = () => {
             },
             {
               q: "Is guided bone and tissue regeneration covered by insurance?",
-              a: "This procedure is often covered by dental insurance when it is deemed medically necessary for implant placement or to treat periodontal defects. We'll verify your benefits and explain any costs upfront."
+              a: "This procedure is often covered by dental insurance when it is deemed medically necessary for implant placement or to treat periodontal defects. We'll verify your benefits and explain any costs upfront. However, we offer flexible affordable payment plans with Care Credit, SunBit and Cherry to make it accessible."
+            },
+            {
+              q: "What insurance do you accept?",
+              a: "We acccept Delta Dental and Cigna dental insurance plans. We also offer flexible financing options for patients without insurance with Care Credit, SunBit and Cherry. Our team will help you understand your coverage and payment options."
             },
             {
               q: "What materials are used for the graft?",

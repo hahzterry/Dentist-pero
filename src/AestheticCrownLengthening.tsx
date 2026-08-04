@@ -490,7 +490,7 @@ const AestheticCrownLengthening = () => {
             },
             {
               q: "Is aesthetic crown lengthening covered by insurance?",
-              a: "Since this is a cosmetic procedure, it is typically not covered by dental insurance. However, we offer flexible payment plans and financing options to make it accessible."
+              a: "Since this is a cosmetic procedure, it is typically not covered by dental insurance. However, we offer flexible affordable payment plans with Care Credit, SunBit and Cherry to make it accessible."
             },
             {
               q: "Will my teeth look longer immediately?",

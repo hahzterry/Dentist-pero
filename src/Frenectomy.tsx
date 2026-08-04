@@ -506,7 +506,11 @@ const Frenectomy = () => {
             },
             {
               q: "Is a frenectomy covered by insurance?",
-              a: "Many dental and medical insurance plans cover frenectomy when it is deemed medically necessary for feeding, speech, or orthodontic reasons. We'll verify your benefits and explain any out-of-pocket costs before your procedure."
+              a: "Many dental and medical insurance plans cover frenectomy when it is deemed medically necessary for feeding, speech, or orthodontic reasons. We'll verify your benefits and explain any out-of-pocket costs before your procedure. However, we offer flexible affordable payment plans with Care Credit, SunBit and Cherry to make it accessible."
+            },
+          {
+              q: "What insurance do you accept?",
+              a: "We acccept Delta Dental and Cigna dental insurance plans. We also offer flexible financing options for patients without insurance with Care Credit, SunBit and Cherry. Our team will help you understand your coverage and payment options."
             },
             {
               q: "What are the risks of a frenectomy?",
@@ -518,7 +522,7 @@ const Frenectomy = () => {
             },
             {
               q: "How do I schedule my frenectomy consultation?",
-              a: "You can schedule online through our booking platform or call our office directly at (770) 994-5678. We'll conduct a comprehensive evaluation and determine if a frenectomy is the right treatment for you or your child."
+              a: "You can schedule online through our booking platform or call our office directly at (770) 994-5678. We'll conduct an evaluation and determine if a frenectomy is the right treatment for you or your child."
             }
           ].map((item, i) => (
             <div key={i} className="p-6 transition-all border section-animate border-primary/10 rounded-2xl bg-white/50 hover:bg-white">

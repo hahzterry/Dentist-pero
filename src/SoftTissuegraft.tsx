@@ -494,7 +494,11 @@ const OsseousSurgery = () => {
             },
             {
               q: "Is osseous surgery covered by insurance?",
-              a: "Yes, osseous surgery is typically covered by dental insurance plans when it's deemed medically necessary for the treatment of periodontal disease. We'll verify your benefits and explain any out-of-pocket costs before your procedure."
+              a: "Yes, osseous surgery is typically covered by dental insurance plans when it's deemed medically necessary for the treatment of periodontal disease. We'll verify your benefits and explain any out-of-pocket costs before your procedure. However, we offer flexible affordable payment plans with Care Credit, SunBit and Cherry to make it accessible."
+            },
+            {
+              q: "What insurance do you accept?",
+              a: "We acccept Delta Dental and Cigna dental insurance plans. We also offer flexible financing options for patients without insurance with Care Credit, SunBit and Cherry. Our team will help you understand your coverage and payment options."
             },
             {
               q: "Will I need to take time off work?",
@@ -505,12 +509,16 @@ const OsseousSurgery = () => {
               a: "We recommend a soft-food diet for the first few days, gradually transitioning to solid foods as healing progresses. We'll provide dietary guidelines to ensure proper healing."
             },
             {
+              q: "What insurance do you accept?",
+              a: "We acccept Delta Dental and Cigna dental insurance plans. We also offer flexible financing options for patients without insurance with Care Credit, SunBit and Cherry. Our team will help you understand your coverage and payment options."
+            },
+            {
               q: "How long will the results last?",
               a: "With regular periodontal maintenance visits (every 3–4 months) and excellent home care, the results of osseous surgery can last a lifetime. The procedure stops the progression of the disease and allows you to maintain healthy gums and stable bone."
             },
             {
               q: "How do I schedule my osseous surgery consultation?",
-              a: "You can schedule online through our booking platform or call our office directly at (770) 994-5678. We'll conduct a comprehensive evaluation and determine if osseous surgery is the right treatment for you."
+              a: "You can schedule online through our booking platform or call our office directly at (770) 994-5678. We'll conduct an evaluation and determine if osseous surgery is the right treatment for you."
             }
           ].map((item, i) => (
             <div key={i} className="p-6 transition-all border section-animate border-primary/10 rounded-2xl bg-white/50 hover:bg-white">
