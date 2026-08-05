@@ -180,7 +180,7 @@ const Alloderm = () => {
       <section ref={heroRef} className="relative w-full min-h-[90vh] overflow-hidden flex items-end pb-24 md:pb-32 px-6 md:px-16 bg-white">
         <div className="absolute inset-0 z-0 bg-[#F8FAFC]">
           <img
-            src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=2600&auto=format&fit=crop"
+            src="https://i.imgur.com/QK2vp5P.jpeg?q=80&w=2600&auto=format&fit=crop"
             alt="Alloderm gum graft Atlanta GA"
             className="object-cover w-full h-full opacity-30 mix-blend-multiply filter grayscale"
           />
@@ -264,7 +264,7 @@ const Alloderm = () => {
           <div className="flex items-center justify-center section-animate">
             <div className="relative w-full aspect-[4/3] bg-primary/5 rounded-3xl overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=2600&auto=format&fit=crop"
+                src="https://i.imgur.com/QK2vp5P.jpeg?q=80&w=2600&auto=format&fit=crop"
                 alt="Alloderm tissue graft material"
                 className="object-cover w-full h-full filter grayscale opacity-60"
               />
@@ -355,7 +355,7 @@ const Alloderm = () => {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-16">
           <div className="order-2 section-animate md:order-1">
             <img
-              src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=2600&auto=format&fit=crop"
+              src="https://i.imgur.com/QK2vp5P.jpeg?q=80&w=2600&auto=format&fit=crop"
               alt="Alloderm grafting procedure Atlanta"
               className="rounded-3xl shadow-lg border border-primary/5 object-cover w-full h-[350px]"
             />
