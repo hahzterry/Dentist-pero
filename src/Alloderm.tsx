@@ -200,7 +200,7 @@ const Alloderm = () => {
             </span>
           </h1>
           <p className="max-w-2xl mt-6 font-serif text-xl hero-element md:mt-8 text-primary/80">
-            Restore receded gums, protect tooth roots, and enhance your smile with Alloderm — a safe, biocompatible soft tissue graft that promotes natural regeneration.
+            Restore receded gums, protect tooth roots, and enhance your smile with Alloderm.
             <span className="block mt-2 font-sans text-base text-primary/60">
               Serving Buckhead, Midtown, Sandy Springs, and all of Metro Atlanta.
             </span>
