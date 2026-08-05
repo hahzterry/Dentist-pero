@@ -176,8 +176,11 @@ const Alloderm = () => {
 
       <Navbar />
       
-      {/* HERO SECTION */}
-      <section ref={heroRef} className="relative w-full min-h-[90vh] overflow-hidden flex items-end pb-24 md:pb-32 px-6 md:px-16 bg-white">
+      {/* HERO SECTION — FIXED MOBILE SPACING (NO OVERLAP) */}
+      <section
+        ref={heroRef}
+        className="relative w-full min-h-[85vh] md:min-h-[90vh] overflow-hidden flex items-end pb-32 md:pb-48 px-6 md:px-16 bg-white"
+      >
         <div className="absolute inset-0 z-0 bg-[#F8FAFC]">
           <img
             src="https://i.imgur.com/QK2vp5P.jpeg?q=80&w=2600&auto=format&fit=crop"
@@ -191,21 +194,21 @@ const Alloderm = () => {
           <div className="hero-element inline-block bg-accent/10 text-accent px-4 py-1.5 rounded-full font-mono text-xs uppercase tracking-wider mb-4">
             Advanced Soft Tissue Regeneration
           </div>
-          <h1 className="flex flex-col gap-1 md:gap-2">
-            <span className="font-sans text-3xl font-bold tracking-tighter hero-element md:text-5xl lg:text-6xl text-primary">
+          <h1 className="flex flex-col gap-4 md:gap-6">
+            <span className="font-sans text-3xl font-bold tracking-tighter md:text-5xl lg:text-6xl hero-element text-primary">
               Alloderm Grafting
             </span>
-            <span className="hero-element font-serif italic text-6xl md:text-[8rem] lg:text-[10rem] leading-[0.85] text-accent font-medium">
+            <span className="hero-element font-serif italic text-4xl md:text-7xl lg:text-[10rem] leading-[0.85] text-accent font-medium">
               Atlanta GA.
             </span>
           </h1>
-          <p className="max-w-2xl mt-6 font-serif text-xl hero-element md:mt-8 text-primary/80">
+          <p className="max-w-2xl mt-4 font-serif text-lg md:mt-6 md:text-xl hero-element text-primary/80">
             Restore receded gums, protect tooth roots, and enhance your smile with Alloderm.
-            <span className="block mt-2 font-sans text-base text-primary/60">
+            <span className="block mt-2 font-sans text-sm md:text-base text-primary/60">
               Serving Buckhead, Midtown, Sandy Springs, and all of Metro Atlanta.
             </span>
           </p>
-          <div className="flex flex-wrap gap-4 mt-10 hero-element">
+          <div className="flex flex-wrap gap-4 mt-6 md:mt-8 hero-element">
             <button 
               onClick={() => window.open("https://book.modento.io/atlanta-periodontal-group", "_blank")} 
               className="magnetic-button bg-gradient-to-r from-accent to-[#0ea5e9] text-white px-8 py-4 rounded-full font-sans font-semibold flex items-center gap-2 shadow-[inset_0_2px_10px_rgba(255,255,255,0.4),0_10px_30px_rgba(6,182,212,0.3)] border border-white/20"
@@ -221,7 +224,7 @@ const Alloderm = () => {
               <span className="relative z-10">(770) 994-5678</span>
             </a>
           </div>
-          <div className="flex flex-wrap items-center gap-6 mt-8 text-sm hero-element text-primary/60">
+          <div className="flex flex-wrap items-center gap-4 mt-4 text-sm md:gap-6 md:mt-6 hero-element text-primary/60">
             <span className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-accent" />
               Minimally Invasive
