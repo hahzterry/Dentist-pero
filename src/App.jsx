@@ -543,7 +543,7 @@ const CTASection = () => {
   );
 };
 
-// --- 7. FOOTER (UPDATED WITH INSURANCE & PAYMENT COLUMN) ---
+// --- 7. FOOTER (UPDATED WITH LOCATION & CONTACT INFO) ---
 const Footer = () => {
   const services = [
     { name: 'Alloderm', path: '/alloderm' },
@@ -563,17 +563,53 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-white rounded-t-[4rem] px-6 md:px-16 py-16 md:py-24 mt-24 shadow-[0_-20px_50px_rgba(15,23,42,0.1)]">
       <div className="flex flex-col justify-between gap-16 mx-auto max-w-7xl md:flex-row md:gap-8">
-        {/* Column 1: Practice */}
+        {/* Column 1: Practice + Contact Info */}
         <div className="max-w-sm">
           <div className="mb-4 font-sans text-3xl font-bold tracking-tight text-white">ATL Perio Group</div>
-          <p className="font-serif text-lg italic text-white/70">
-            Atlanta's best Periodontist.
-          </p>
+
+          {/* Location */}
+          <div className="mt-4 space-y-3 text-sm text-white/80">
+            <div>
+              <span className="font-mono text-xs font-semibold tracking-widest uppercase text-white/60">Location</span>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=1580+Phoenix+Blvd+Suite+150+Atlanta+GA+30349"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block mt-1 transition-colors hover:text-accent hover:underline"
+              >
+                1580 Phoenix Blvd, Suite 150,<br />
+                Atlanta, GA 30349
+              </a>
+            </div>
+
+            {/* Phone & Text */}
+            <div>
+              <span className="font-mono text-xs font-semibold tracking-widest uppercase text-white/60">Contact</span>
+              <div className="mt-1 space-y-1">
+                <a href="tel:+17709945678" className="block transition-colors hover:text-accent hover:underline">
+                  Phone: (770) 994-5678
+                </a>
+                <a href="tel:+17709945678" className="block transition-colors hover:text-accent hover:underline">
+                  Text Us: (770) 994-5678
+                </a>
+              </div>
+            </div>
+
+            {/* Hours */}
+            <div>
+              <span className="font-mono text-xs font-semibold tracking-widest uppercase text-white/60">Hours</span>
+              <div className="mt-1 space-y-0.5 text-sm leading-relaxed">
+                <div>Monday: 9 AM – 3 PM</div>
+                <div>Tuesday – Thursday: 8 AM – 4 PM</div>
+                <div>Friday: 9 AM – 3 PM</div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        {/* Columns 2-4: Services, Insurance & Payment, Legal */}
+        {/* Columns 2-4: Services, Insurance & Payment, Legal (unchanged) */}
         <div className="grid grid-cols-2 gap-12 font-sans text-sm md:grid-cols-4">
-          {/* Column 2: Services (all 10) */}
+          {/* Column 2: Services */}
           <div className="flex flex-col gap-4 text-white/70">
             <div className="mb-2 font-mono text-xs font-semibold tracking-widest text-white uppercase">Services</div>
             {services.map((service, index) => (
@@ -611,7 +647,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Footer bottom bar */}
+      {/* Footer bottom bar (unchanged) */}
       <div className="flex flex-col items-center justify-between gap-4 pt-8 mx-auto mt-24 border-t max-w-7xl border-white/10 md:flex-row">
         <p className="font-mono text-xs text-white/40">© {new Date().getFullYear()} ATL Perio Group. All rights reserved.</p>
         <div className="flex items-center gap-3 px-4 py-2 border rounded-full shadow-inner bg-white/5 border-white/10">
